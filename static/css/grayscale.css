@@ -260,12 +260,22 @@ a:focus {
 .content-section {
     padding-top: 100px;
 }
-
-.download-section {
+.synopsis-section {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+    background: url(/static/img/back2.png) no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.schedule-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    background: url(/static/img/back1.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -370,4 +380,12 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
+}
+
+h1 {
+    font-size: 50px !important;
+}
+
+li {
+    margin-right: 10px;
 }
